@@ -4,14 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Momentum App</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <section class="top">
     <h2 id="clock">00:00:00</h2>
     <form class="hidden" id="login-form">
-      <input required maxlength="15" type="text" placeholder="What is your name?">
-      <input type="submit" value="Log in">
+      <div class="login-input">
+        <input required maxlength="15" type="text" placeholder="What is your name?">
+        <input type="submit" value="Log in">
+      </div>
+      
     </form>
 
     <h1 id="greeting" class="hidden"></h1>

@@ -1,3 +1,9 @@
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  line-height: 1.4;
+}
+
+
 .hidden {
   display: none;
 }
@@ -22,13 +28,42 @@
   background-color: black;
   color: white;
   display: flex;
-  height: 100px;
+  height: 80px;
   box-sizing: border-box;
 }
 
+#clock {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+#login-form {
+
+}
+
+.login-input {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.login-input input:first-child {
+  margin-right: 10px;
+}
+#greeting {
+  margin-right: 20px;
+  width: 15%;
+  
+}
+
 #todo-form {
-  margin-top: 30px;
+  display: flex;
+  align-items: center;
   width: 20%;
+  margin-left: 20px;
 }
 
 #todo-list {
@@ -40,18 +75,20 @@
 
 #todo-list li{
   margin-right: 40px;
+  margin-top: 10px;
 }
 
-#clock {
-  margin-right: 20px;
-  margin-left: 20px;
+#todo-list span {
+  margin-right: 10px;
 }
 
-#greeting {
-  margin-right: 20px;
-  width: 15%;
-  
+#todo-list button {
+  color: green;
 }
+
+
+
+
 
 .bottom {
   position: fixed;
@@ -60,5 +97,12 @@
   right: 0;
   background-color: black;
   color: white;
-  padding: 20px;
+  padding: 10px;
+}
+
+#weather {
+  position: absolute;
+  right: 0;
+  top: 10px;
+
 }

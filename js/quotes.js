@@ -1,7 +1,7 @@
 const quotes = [
   {
     quote: "\"拜啓 わたなべひろこさん やっぱり はずかしくて、 この手紙は 出せません。\"",
-    author: "Love Letter, 1995-",
+    author: "-Love Letter, 1995-",
     image : "Love Letter.jpg"
   },
   {

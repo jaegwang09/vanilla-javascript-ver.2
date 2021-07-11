@@ -3,6 +3,15 @@ body {
   line-height: 1.4;
 }
 
+input {
+  margin-right: 10px;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: white;
+}
 
 .hidden {
   display: none;
@@ -29,13 +38,14 @@ body {
   color: white;
   display: flex;
   height: 80px;
-  box-sizing: border-box;
   align-items: center;
 }
 
 #clock {
   margin-right: 20px;
   margin-left: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 
@@ -51,19 +61,17 @@ body {
   
 }
 
-.login-input input:first-child {
-  margin-right: 10px;
-}
-
 .greeting {
   display: flex;
   align-items: center;
+  white-space: nowrap;
   
 }
 #greeting {
   margin-bottom: 0;
   margin-top: 0;
   margin-right: 20px;
+  
 }
 
 .reset {
@@ -78,33 +86,34 @@ body {
 #todo-form {
   display: flex;
   align-items: center;
-  width: 20%;
+  
   margin-left: 20px;
 }
 
 #todo-list {
-  width: 50%;
   display: flex;
-  flex-wrap: wrap;
- 
+  margin-bottom: 0;
+  margin-top: 0;
+  height: 100%;
 }
 
 #todo-list li{
-  margin-right: 40px;
-  margin-top: 10px;
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
 }
 
 #todo-list span {
-  margin-right: 10px;
+  white-space: nowrap;
+  text-align: center;
+  
+  
 }
 
 #todo-list button {
   color: green;
+  margin-left: 10px;
 }
-
-
-
-
 
 .bottom {
   position: fixed;

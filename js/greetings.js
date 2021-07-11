@@ -58,7 +58,7 @@ if (savedUsername === null) {
 
 
 function handleReset() {
-  localStorage.removeItem(USERNAME_KEY)
+  localStorage.clear(),
   window.location.reload()
 }
 reset.addEventListener('click', handleReset)

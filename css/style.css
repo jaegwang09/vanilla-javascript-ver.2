@@ -92,15 +92,16 @@ input {
 
 #todo-list {
   display: flex;
-  margin-bottom: 0;
-  margin-top: 0;
-  height: 100%;
+  width: 50%;
+  overflow-x: hidden;
+  
 }
 
 #todo-list li{
   display: flex;
   margin-right: 20px;
   align-items: center;
+  
 }
 
 #todo-list span {

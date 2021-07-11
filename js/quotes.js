@@ -22,7 +22,7 @@ const quotes = [
   {
     quote: "\"モロ…… 森と人間が爭わずにすむ道はないのか? ほんとにもうとめられないのか?\"",
     author: "-もののけ姬, 1997-",
-    image : "もののけ姬.jpg"
+    image : "もののけ姬.jpeg"
   },
   {
     quote: "\"They can't be bought, bullied, reasoned, or negotiated with. Some men just want to watch the world burn.\"",
@@ -40,7 +40,7 @@ const quotes = [
     image : "Flipped.jpg"
   },
   {
-    quote: "\"Life is like a box of chocolates, You never know what you are gonne get.\"",
+    quote: "\"Life is like a box of chocolates, You never know what You are gonna get.\"",
     author: "-Forrest Gump, 1994-",
     image : "Forrest Gump.jpg"
   },

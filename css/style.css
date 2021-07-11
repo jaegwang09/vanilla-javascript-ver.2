@@ -30,6 +30,7 @@ body {
   display: flex;
   height: 80px;
   box-sizing: border-box;
+  align-items: center;
 }
 
 #clock {
@@ -53,10 +54,25 @@ body {
 .login-input input:first-child {
   margin-right: 10px;
 }
-#greeting {
-  margin-right: 20px;
-  width: 15%;
+
+.greeting {
+  display: flex;
+  align-items: center;
   
+}
+#greeting {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-right: 20px;
+}
+
+.reset {
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: white;
 }
 
 #todo-form {

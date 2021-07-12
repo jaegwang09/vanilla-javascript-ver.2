@@ -35,7 +35,7 @@ const quotes = [
     image : "3 Idiots.jpg"
   },
   {
-    quote: "\"But every once in awhile, You find someone who's iridescent.\"",
+    quote: "\"But every once in awhile, You find someone who's iridescent. And when You do, nothing will ever compare.\"",
     author: "-Flipped, 2010-",
     image : "Flipped.jpg"
   },

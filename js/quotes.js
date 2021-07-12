@@ -15,7 +15,7 @@ const quotes = [
     image : "Good Will Hunting.jpg"
   },
   {
-    quote: "\"Good morning, and in case I don't see ya, good afternoon, good evening, and good night.\"",
+    quote: "\"Good morning, and in case i don't see ya, good afternoon, good evening, and good night.\"",
     author: "-The Truman Show, 1998-",
     image : "The Truman Show.jpg"
   },
@@ -35,12 +35,12 @@ const quotes = [
     image : "3 Idiots.jpg"
   },
   {
-    quote: "\"But every once in awhile, You find someone who's iridescent. And when You do, nothing will ever compare.\"",
+    quote: "\"But every once in awhile, you find someone who's iridescent. And when you do, nothing will ever compare.\"",
     author: "-Flipped, 2010-",
     image : "Flipped.jpg"
   },
   {
-    quote: "\"Life is like a box of chocolates, You never know what You are gonna get.\"",
+    quote: "\"Life is like a box of chocolates, you never know what you are gonna get.\"",
     author: "-Forrest Gump, 1994-",
     image : "Forrest Gump.jpg"
   },

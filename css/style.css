@@ -49,6 +49,11 @@ input {
   display: flex;
   height: 80px;
   align-items: center;
+  overflow-x: scroll;
+}
+
+.top::-webkit-scrollbar {
+  display: none;
 }
 
 #clock {
@@ -103,9 +108,13 @@ input {
 #todo-list {
   display: flex;
   width: 50%;
-  overflow-x: hidden;
   
+  margin: 0;
+  height: 80px;
 }
+
+
+
 
 #todo-list li{
   display: flex;

@@ -56,9 +56,17 @@ input {
   display: none;
 }
 
-#clock {
-  margin-right: 20px;
+.clockWeather {
+  white-space: nowrap;
   margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#clock {
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -145,8 +153,3 @@ input {
   padding: 10px;
 }
 
-#weather {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-}

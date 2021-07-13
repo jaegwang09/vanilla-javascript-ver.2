@@ -169,9 +169,8 @@ input {
 }
 
 .bottom {
-  
-  z-index: 2;
-  position: fixed;
+  z-index: 3;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -179,12 +178,29 @@ input {
   color: white;
   padding: 10px;
   margin: 0;
-  overflow-x: scroll;
   box-sizing: border-box;
+  height: 100px;
+  
+  
 }
-#quote span:first-child {
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   white-space: nowrap;
+  
+  
+
 }
-.bottom::-webkit-scrollbar {
+#quote div:first-child {
+  overflow: auto;
+  flex: 1;
+  max-width: 100%;
+}
+#quote div:last-child {
+  
+  
+}
+#quote div:first-child::-webkit-scrollbar {
   display: none;
 }

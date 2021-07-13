@@ -45,14 +45,14 @@ const quotes = [
     image : "Forrest Gump.jpg"
   },
   {
-    quote: "\"아닙니다. 달콤한 꿈을 꾸었습니다.\" \"그런데 왜 그리 슬피 우느냐?\" 제자는 흐르는 눈물을 닦아내며 나지막이 말했다. \"그 꿈은 이루어질 수 없기 때문입니다.\"",
+    quote: "\"무서운 꿈을 꾸었느냐?\" \"아닙니다.\" \"슬픈 꿈을 꾸었느냐?\"\n\"아닙니다. 달콤한 꿈을 꾸었습니다.\" \"그런데 왜 그리 슬피 우느냐?\" 제자는 흐르는 눈물을 닦아내며 나지막이 말했다. \"그 꿈은 이루어질 수 없기 때문입니다.\"",
     author: "-달콤한 인생, 2005-",
     image : "달콤한 인생.jpg"
   },
 ]
 
-const quote = document.querySelector("#quote span:first-child")
-const author = document.querySelector("#quote span:last-child")
+const quote = document.querySelector("#quote div:first-child span")
+const author = document.querySelector("#quote div:last-child span")
 
 // console.log(Math.floor(Math.random()*10))
 

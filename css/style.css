@@ -23,7 +23,7 @@ input {
 }
 
 .bg {
-  margin: auto;
+  margin: 0 auto;
   height: 100%;
   z-index: -1;
   position: absolute;

@@ -4,11 +4,11 @@ body {
   margin: 0;
   background-color: black;
   height: 100vh;
-
+  
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 input {
   margin-right: 10px;
@@ -57,7 +57,6 @@ input {
 
 .top {
   z-index: 2;
-  width: 97%;
   position: fixed;
   top: 0;
   left: 0;
@@ -170,7 +169,6 @@ input {
 
 .bottom {
   z-index: 2;
-  width: 97%;
   position: fixed;
   bottom: 0;
   left: 0;

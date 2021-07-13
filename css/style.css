@@ -130,14 +130,15 @@ input {
   align-items: center;
   
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 #todo-list {
   display: flex;
   width: 50%;
-  margin: 0;
   height: 80px;
-  margin-right: 20px;
+  
+  
 }
 
 

@@ -1,6 +1,11 @@
 body {
   font-family: 'Nanum Gothic', sans-serif;
   line-height: 1.4;
+  background-color: black;
+  
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 input {
@@ -18,7 +23,7 @@ input {
 }
 
 .bg {
-  width: 100%;
+  margin: auto;
   height: 100%;
   z-index: -1;
   position: absolute;
@@ -26,7 +31,9 @@ input {
   bottom: 0;
   left: 0;
   right: 0;
+  opacity: 0;
   animation: bg 1s ease-in-out forwards;
+  animation-delay: .5s;
 }
 
 @keyframes bg {

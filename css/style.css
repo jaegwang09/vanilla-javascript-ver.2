@@ -162,6 +162,10 @@ input {
   margin-left: 10px;
 }
 
+.message {
+  white-space: nowrap;
+}
+
 .bottom {
   z-index: 2;
   position: fixed;

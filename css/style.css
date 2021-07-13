@@ -67,16 +67,13 @@ input {
   display: flex;
   height: 80px;
   align-items: center;
-  overflow-x: scroll;
+  padding: 10px;
 }
 
-.top::-webkit-scrollbar {
-  display: none;
-}
+
 
 .clockWeather {
   white-space: nowrap;
-  margin-left: 20px;
   margin-right: 20px;
   display: flex;
   flex-direction: column;
@@ -134,11 +131,15 @@ input {
 #todo-list {
   display: flex;
   width: 50%;
-  
   margin: 0;
   height: 80px;
+  overflow-x: scroll;
+  margin-right: 20px;
 }
 
+#todo-list::-webkit-scrollbar {
+  display: none;
+}
 
 
 

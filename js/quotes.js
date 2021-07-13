@@ -64,4 +64,5 @@ const bgImage = document.createElement("img")
 bgImage.src =`img/${todaysQuote.image}`
 bgImage.className += "bg"
 // console.log(bgImage)
-document.body.appendChild(bgImage)
+const background = document.querySelector('.background')
+background.appendChild(bgImage)

@@ -1,13 +1,15 @@
 body {
   font-family: 'Nanum Gothic', sans-serif;
   line-height: 1.4;
+  margin: 0;
   background-color: black;
+  height: 100vh;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
-body::-webkit-scrollbar {
-  display: none;
-}
-
 input {
   margin-right: 10px;
   border: 2px solid white;
@@ -22,20 +24,28 @@ input {
   display: none;
 }
 
-.bg {
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  position: absolute;
+.background {
   top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
-  opacity: 0;
-  animation: bg 1s ease-in-out forwards;
-  animation-delay: .5s;
+  bottom: 0;
+  position: absolute;
+  overflow-x: scroll;
+  z-index: 1;
+  background-color: black;
+  display: flex;
+  
+  
+}
+.background::-webkit-scrollbar {
+  display: none;
+  
 }
 
+.bg {
+  height: 100%;
+  
+}
 @keyframes bg {
   from {
     opacity: 0;
@@ -46,6 +56,7 @@ input {
 }
 
 .top {
+  z-index: 2;
   width: 100%;
   position: fixed;
   top: 0;
@@ -151,6 +162,7 @@ input {
 }
 
 .bottom {
+  z-index: 2;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -158,5 +170,6 @@ input {
   background-color: black;
   color: white;
   padding: 10px;
+  margin: 0;
 }
 

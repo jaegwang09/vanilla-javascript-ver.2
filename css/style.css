@@ -44,7 +44,7 @@ input {
 
 .bg {
   height: 100%;
-  
+  margin: 0 auto;
 }
 @keyframes bg {
   from {
